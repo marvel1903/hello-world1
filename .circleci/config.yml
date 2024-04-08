@@ -10,7 +10,7 @@ orbs:
 
 jobs: 
   test: 
-    executer: node\default
+    executor: node\default
     steps: 
       - checkout
       - run: sudo npm install -g npm@latest
