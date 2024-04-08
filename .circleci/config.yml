@@ -9,7 +9,7 @@ orbs:
   
 
 jobs: 
-  tests: 
+  test: 
     executer: node\default
     steps: 
       - checkout
