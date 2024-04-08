@@ -5,13 +5,13 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/jobs-steps/#jobs-overview & https://circleci.com/docs/configuration-reference/#jobs
 orbs:
-  node: circleci/node@5.2.0
+ node: circleci/node@5.2.0
   
 
 jobs: 
   test: 
-    executer: node\default
-    steps: 
+	 executer: node\default
+	 steps: 
       - checkout
       - run: sudo npm install -g npm@latest
       - node/install-packages: 
